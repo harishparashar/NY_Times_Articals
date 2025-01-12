@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm i`
+
+Installs all the dependencies required for the project as specified in the `package.json` file.
+
+### `use env.sample to .env file`
+
+Copy the `env.sample` file and rename it to `.env` to set up environment variables required for the project.
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -18,6 +26,11 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm test -- --coverage`
+
+Runs the test suite with coverage reporting.\
+Generates a report to show the percentage of code covered by the tests.
 
 ### `npm run build`
 
