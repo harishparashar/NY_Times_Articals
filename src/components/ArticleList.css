@@ -1,0 +1,28 @@
+.article-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .article-item {
+    padding: 15px;
+    margin: 10px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .article-item:hover {
+    background: #f1f1f1;
+  }
+  
+  .article-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .article-link:hover {
+    color: #007bff;
+  }
+  

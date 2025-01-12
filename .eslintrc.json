@@ -1,0 +1,12 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "env": { "browser": true, "es6": true, "jest": true },
+    "parserOptions": {
+      "ecmaVersion": 2020,  // You can specify any ECMAScript version you are using
+      "sourceType": "module"  // Important for using import/export
+    },
+    "rules": {
+      "react/prop-types": "off"
+    }
+  }
+  
